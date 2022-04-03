@@ -1,0 +1,35 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+          "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="Description" content="Exemplu de aplicaţie Web pentru browser (HTML, CSS, javaScript): cel mai mare divizor comun pentru o secvenţă dată de numere (algoritmul lui Euclid; metoda Divide-et-impera)" />
+  <meta name="author" content="Vlad Bazon" />
+
+  <link rel="stylesheet" type="text/css" href="Css/cmmdc.css" />
+  <script type="text/javascript" src="Js/cmmdc.js"></script>
+  <title>Cel mai mare divizor comun</title>
+</head>
+
+<body>
+  <div class="wrap-content">
+    <h3>Cel Mai Mare Divizor Comun al unei secvenţe de numere</h3>
+    <p class="help"> <!--sugestii de operare-->
+      <i>Tastaţi</i> numere naturale, separând prin spaţiu; <i>click</i> pe butonul <b>CMMDC</b>.
+    </p>    
+    <p class="wrap-input">
+      <input id="container" value="123 456 123456" />
+    </p>
+    <p><button onclick="write_cmmdc('container','rezultat');">
+           CMMDC
+       </button> <span style="font-size:0.9em;">al numerelor introduse = </span><span id="rezultat"></span>
+    </p>
+  </div>
+</body>
+
+<script type="text/javascript">
+  document.getElementById('container').focus();
+</script>
+
+</html>

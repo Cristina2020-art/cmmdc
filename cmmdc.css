@@ -1,0 +1,44 @@
+div.wrap-content {  /* pentru acele DIV care au atributul  class='wrap-content' */
+  margin-top: 2em; 
+  margin-left: auto; /* 'auto' pe -left şi -right determină centrarea pe orizontală (în Firefox) */
+  margin-right: auto;
+  padding: 1em;
+  width: 60%;
+  background: #F9BFFF; /* #fef; */
+  text-align: center; /* toate elementele incluse vor fi (iniţial) centrate în DIV pe orizontală */
+}
+
+h3 { font-family: Dejavu, Arial; }
+
+p.help { 
+  font-size: 0.9em; 
+  color: #448; 
+  margin-bottom: 0.2em;
+  text-align: left; /* nu va mai fi "centrat", deşi e inclus în DIV.centerdiv */
+}
+
+p.wrap-input { 
+  margin-top:0em;
+}
+p.wrap-input input {  /* pentru INPUT conţinut într-un P cu clasa 'wrap-input' */
+  font-family: monospace, Courier; 
+  padding: 0.5em; 
+  font-size: 1.2em; 
+  font-weight: bold; 
+  color: red; 
+  background: #eee; 
+  width: 95%;
+}
+
+button { /* pentru orice element BUTTON */
+  cursor: pointer; 
+  font-weight: bold;
+  letter-spacing:0.4px;
+}
+
+#rezultat { /* pentru elementul cu atributul ID='rezultat' */
+  color:red; 
+  font-weight:bold; 
+  font-family:monospace,Courier;
+  font-size:1.2em;
+}
